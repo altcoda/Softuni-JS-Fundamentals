@@ -1,7 +1,7 @@
 function ages(age) {
 
     let lifeStage = "";
-      if(age >= 0 && age <=2) {
+    if(age >= 0 && age <=2) {
         lifeStage = "baby";
     } else if(age > 2 && age <= 13) {
         lifeStage = "child";
@@ -12,7 +12,7 @@ function ages(age) {
     } else if(age > 65) {
         lifeStage = "elder";
     } else {
-        lifeStage = "out of bounds"
+        lifeStage = "out of bounds";
     }
     console.log(lifeStage)
     
