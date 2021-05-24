@@ -1,17 +1,19 @@
-function login(input) {
-  let username = input[0];
+function login(list) {
+  let username = list.shift();
   let password = username.split("").reverse("").join("");
-  
-  let inp = "", index = 1, loginAttempts = 0;
-  while(inp != password) {
-    let inp = input[index++];
+
+  let input = "", index = 0, loginAttempts = 0;
+  while(input != password) {
+    let input = list[index++];
+
     loginAttempts++;
-    if(inp === password) { 
+
+    if(input === password) {
         console.log(`User ${username} logged in.`); break;
-    } else if(loginAttempts === 4) { 
+    } else if(loginAttempts === 4) {
         console.log(`User ${username} blocked!`); break; 
     } else {
         console.log(`Incorrect password. Try again.`) 
-    }
+    } 
   }
 }
