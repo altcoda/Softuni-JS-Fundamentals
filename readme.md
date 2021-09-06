@@ -4,7 +4,7 @@
 
 This repo includes all homework and exercises I did for this course.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Logo_Software_University_%28SoftUni%29_-_blue.png" alt="softuni logo" width="150"/><br/>
+<img src="https://i.ibb.co/qWDB3hj/softuni-logo.png" alt="softuni logo" width="150"/><br/>
 
 ## COURSE CURRICULUM:
 
